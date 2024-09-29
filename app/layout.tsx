@@ -15,22 +15,23 @@ const geistMono = localFont({
 });
 
 export const metadata: Metadata = {
-  title: 'Calculateur Achat Pro vs Perso | Comparaison des coûts d\'achat',
-  description: 'Comparez facilement le coût réel d\'un achat personnel à celui d\'un achat professionnel. Optimisez vos décisions financières avec notre calculateur interactif.',
-  keywords: 'calculateur, achat professionnel, achat personnel, comparaison coûts, optimisation fiscale, France',
-  authors: [{ name: 'hndgy', url: 'https://github.com/hndgy' }],
+  title: 'Calculateurs Fiscaux | Optimisez vos finances en France',
+  description: 'Utilisez nos calculateurs fiscaux pour comparer les coûts d\'achat professionnel vs personnel et estimer votre impôt sur le revenu. Optimisez vos décisions financières en France.',
+  keywords: 'calculateur fiscal, impôt sur le revenu, achat professionnel, achat personnel, comparaison coûts, optimisation fiscale, France, TVA, charges sociales',
+  authors: [{ name: 'Votre Nom', url: 'https://votre-site.com' }],
+  creator: 'Votre Nom',
+  publisher: 'Votre Nom',
+  formatDetection: {
+    email: false,
+    address: false,
+    telephone: false,
+  },
   openGraph: {
-    title: 'Calculateur Achat Pro vs Perso',
-    description: 'Comparez les coûts d\'achat personnel et professionnel pour optimiser vos décisions financières.',
-    url: 'https://tax-saver.vercel.app/',
-    siteName: 'Calculateur Achat Pro vs Perso',
+    title: 'Calculateurs Fiscaux | Optimisez vos finances en France',
+    description: 'Comparez les coûts d\'achat professionnel vs personnel et estimez votre impôt sur le revenu pour optimiser vos décisions financières en France.',
+    url: 'https://tax-saver.vercel.app',
+    siteName: 'Calculateurs Fiscaux',
     images: [
-      {
-        url: 'https://votre-site.com/og-image.jpg',
-        width: 1200,
-        height: 630,
-        alt: 'Calculateur Achat Pro vs Perso',
-      },
     ],
     locale: 'fr_FR',
     type: 'website',
@@ -44,6 +45,13 @@ export const metadata: Metadata = {
       'max-video-preview': -1,
       'max-image-preview': 'large',
       'max-snippet': -1,
+    },
+  },
+  alternates: {
+    canonical: 'https://votre-site.com',
+    languages: {
+      'fr-FR': 'https://votre-site.com/fr',
+      'en-US': 'https://votre-site.com/en',
     },
   },
 }
